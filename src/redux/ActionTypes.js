@@ -1,0 +1,3 @@
+export const LESSONS_LOADING = 'LESSONS_LOADING';
+export const LESSONS_FAILED = 'LESSONS_FAILED';
+export const ADD_LESSONS = 'ADD_LESSONS';

@@ -27,15 +27,21 @@ const Header = (props) => {
                             </DropdownToggle>
                             <DropdownMenu right>
                                 <DropdownItem>
-                                    <NavLink className="nav-link" to="/video"> Video</NavLink>
-                                </DropdownItem>
-                                <DropdownItem>
-                                Option 2
+                                    My Profile
                                 </DropdownItem>
                                 <DropdownItem divider />
                                 <DropdownItem>
-                                Reset
+                                    <NavLink className="nav-link" to="/lessons">Lessons</NavLink>
                                 </DropdownItem>
+                                <DropdownItem>
+                                    In Progress
+                                </DropdownItem>
+                                <DropdownItem>
+                                    Completed
+                                </DropdownItem>
+                                <DropdownItem>
+                                    <NavLink className="nav-link" to="/video">Video</NavLink>
+                                </DropdownItem>                        
                             </DropdownMenu>
                         </UncontrolledDropdown>
                         <NavItem>
